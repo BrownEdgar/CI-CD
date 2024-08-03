@@ -8,6 +8,7 @@ jobs:
       matrix:
         node-version: [20.x]
     steps:
+      - uses: actions/checkout@v3
       - name: instal modules
         run: npm install
       - name: check linting
