@@ -12,4 +12,4 @@ jobs:
       - name: instal modules
         run: npm install
       - name: check linting
-        run: npm tun lint
+        run: npm run lint
